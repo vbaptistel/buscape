@@ -27,15 +27,15 @@ A saída esperada é:
 
 Não foi vista como necessidade a utilização de nenhum framework.
 
-Tendo o plano cartesiano fixo: 
-Quando comando R é somado 1 à variavel "direction"
-Quando comando L é subtraído 1 à variavel "direction"
-Quando comando U é somado 1 à variavel "z"
-Quando comando D é subtraído 1 à variavel "z"
-Quando comando M é calculada a direção do submarino, e de acordo com a direção
-	Se NORTE (0)  então é somado 1 à variavel "y"
-	Se LESTE (1)  então é somado 1 à variavel "x"
-	Se SUL (2)    então é subtraído 1 à variavel "y"
-	Se OESTE (3)  então é subtraído 1 à variavel "x"
+Tendo o plano cartesiano fixo:  
+Quando comando R é somado 1 à variavel "direction"  
+Quando comando L é subtraído 1 à variavel "direction"  
+Quando comando U é somado 1 à variavel "z"  
+Quando comando D é subtraído 1 à variavel "z"  
+Quando comando M é calculada a direção do submarino, e de acordo com a direção  
+&nbsp;&nbsp;&nbsp;&nbsp;Se NORTE (0)  então é somado 1 à variavel "y"  
+&nbsp;&nbsp;&nbsp;&nbsp;Se LESTE (1)  então é somado 1 à variavel "x"  
+&nbsp;&nbsp;&nbsp;&nbsp;Se SUL (2) então é subtraído 1 à variavel "y"  
+&nbsp;&nbsp;&nbsp;&nbsp;Se OESTE (3)  então é subtraído 1 à variavel "x"  
 
-No final de cada comando é imprimida a coordenada e a direção do submarino.
+No final de cada comando é imprimida a coordenada e a direção do submarino.  
