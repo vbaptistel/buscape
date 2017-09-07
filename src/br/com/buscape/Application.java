@@ -2,6 +2,12 @@ package br.com.buscape;
 
 import java.util.Scanner;
 
+/**
+ * Aplicação para movimentar um {@link Submarine} com comandos para girar e mover
+ * 
+ * @author viniciusbaptistel
+ *
+ */
 public class Application {
 
 	public static void main(String[] args) throws InterruptedException {
@@ -16,14 +22,13 @@ public class Application {
 		System.out.println("Seja bem-vindo à exploração não tripulada ao fundo do mar!!!");
 		System.out.println(commandos + "\n");
 		
-		Scanner scan = new Scanner(System.in);
-
-		String input = "";
+		Scanner scanner = new Scanner(System.in);
+		
 		Submarine sub = new Submarine();
 		
 		while (true) {
 			System.out.print("Digite um comando (0 para sair): ");
-			input = scan.nextLine();
+			String input = scanner.nextLine();
 			
 			if ("0".equals(input)) {
 				break;
@@ -32,7 +37,7 @@ public class Application {
 			try {
 				sub.move(input);
 				System.out.println(sub.getLocalization());
-			} catch (Exception e) {
+			} catch (RuntimeException e) {
 				System.out.println("Comando não encontrado :-(");
 				System.out.println(commandos);
 			}
@@ -47,7 +52,7 @@ public class Application {
 		}
 		System.out.print(" Good bye :-)");
 
-		scan.close();
+		scanner.close();
 	}
 
 }
