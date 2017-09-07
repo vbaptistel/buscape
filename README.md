@@ -38,4 +38,4 @@ Quando comando M é calculada a direção do submarino, e de acordo com a direç
 &nbsp;&nbsp;&nbsp;&nbsp;Se SUL (2) então é subtraído 1 à variavel "y"  
 &nbsp;&nbsp;&nbsp;&nbsp;Se OESTE (3)  então é subtraído 1 à variavel "x"  
 
-No final de cada comando é imprimida a coordenada e a direção do submarino.  
+No final de cada comando é impressa a coordenada e a direção do submarino.  
